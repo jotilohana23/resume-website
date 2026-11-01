@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bheesham Kumar | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">BK</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#credentials">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" aria-label="Toggle dark and light theme">Dark</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Web Developer · Computer Science Graduate</p>
+      <h1>Bheesham Kumar</h1>
+      <p class="lead">I build responsive, user-friendly web applications with React and Next.js, backed by Python (Django and FastAPI), and I integrate AI APIs into real products.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a Computer Science student at Iqra University, Karachi, with a focus on web development. I work across the stack: React.js, Next.js, JavaScript, HTML and CSS on the frontend, and Python with Django and FastAPI on the backend. I am comfortable with both SQL and NoSQL databases and with adding AI APIs to web apps. I am a quick learner and a team player, and I am looking for a Web Developer role or internship where I can contribute to real-world projects.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="item">
+        <h3>Bachelor of Computer Science</h3>
+        <p class="meta">Iqra University, Main Campus Karachi · Oct 2022 – Feb 2026</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <div class="card"><h3>Frontend</h3><p>HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Responsive Web Design</p></div>
+        <div class="card"><h3>Backend</h3><p>Python, Django, FastAPI, RESTful APIs</p></div>
+        <div class="card"><h3>Databases</h3><p>MongoDB, PostgreSQL, SQL Server, SQLite</p></div>
+        <div class="card"><h3>Languages</h3><p>JavaScript, Python, C++, Java</p></div>
+        <div class="card"><h3>Tools</h3><p>Git &amp; GitHub, VS Code, Figma</p></div>
+        <div class="card"><h3>Soft Skills</h3><p>Problem solving, teamwork, communication, quick learning</p></div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>TalentVerify AI: Final Year Project (AI Skill Verification Portal)</h3>
+        <p class="meta">2026</p>
+        <ul>
+          <li>Developed a full-stack portal that assesses candidates' skills and issues QR-verifiable certificates.</li>
+          <li>Built with a React (Vite) frontend, a Django backend and MongoDB, with light and dark themes.</li>
+          <li>Integrated an AI API that generates personalized assessments from each candidate's CV.</li>
+          <li>Created an online coding assessment module with automated scoring and proctoring.</li>
+          <li>Implemented secure registration and authentication that prevents duplicate accounts.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Suthar Community Pakistan Website</h3>
+        <p class="meta">Next.js · In progress</p>
+        <ul>
+          <li>Building the official community website with a multi-page structure and dedicated heritage pages.</li>
+          <li>Created custom content sections such as Community Heritage and Traditional Tools of Our Ancestors.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="web">Web</button>
+        <button class="chip" data-filter="ml">AI &amp; ML</button>
+        <button class="chip" data-filter="desktop">Desktop</button>
+      </div>
+      <div class="grid" id="project-grid">
+        <article class="card" data-cat="web">
+          <h3>TalentVerify AI</h3>
+          <p>Full-stack skill verification portal with AI-generated assessments, automated coding evaluation and QR-verifiable certificates. React, Django, MongoDB.</p>
+        </article>
+        <article class="card" data-cat="web">
+          <h3>Suthar Community Pakistan</h3>
+          <p>Multi-page community website with heritage sections, built with Next.js.</p>
+        </article>
+        <article class="card" data-cat="desktop">
+          <h3>SkillQuest AI</h3>
+          <p>Career path and skill gap planner using BFS, DFS and A* search, with graph visualization and algorithm analytics. Python, CustomTkinter, SQL Server.</p>
+        </article>
+        <article class="card" data-cat="ml">
+          <h3>AI Smart Data Center Anomaly Detection</h3>
+          <p>Machine learning models that predict server workload and detect anomalies in data center performance. Scikit-learn.</p>
+        </article>
+        <article class="card" data-cat="desktop">
+          <h3>LifeLink</h3>
+          <p>Blood donor management system for adding, updating, searching and deleting donor records, with quick lookup by blood group. PyQt5, SQLite.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="credentials">
+      <h2>Certifications</h2>
+      <ul class="plain">
+        <li>CS101: Introduction to Programming I, Saylor Academy (Aug 2026)</li>
+        <li>Introduction to Cybersecurity Awareness, HP LIFE (Aug 2026)</li>
+        <li>IT for Business Success, HP LIFE (Aug 2026)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="plain">
+        <li>Email: <a href="mailto:bheeshamk95@mail.com">bheeshamk95@mail.com</a></li>
+        <li>Location: Karachi, Pakistan</li>
+        <li><a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>© 2026 Bheesham Kumar</footer>
+  <script src="script.js"></script>
+</body>
+</html>
